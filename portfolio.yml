@@ -5,3 +5,4 @@ problem: "O aparelho é fechado, sem documentação pública, sem acesso root ne
 approach: "Boot de recuperação (FEL) via stub no microSD, backup verificado da flash, análise estática do firmware e injeção de um bind-shell e busybox estáticos no rootfs para obter root persistente pela rede; por cima, um launcher próprio em LVGL mantendo o app de fábrica vivo como motor de CarPlay/DVR."
 stack: [C, LVGL, Python, Linux embarcado, Allwinner]
 status: completed
+top: 2
