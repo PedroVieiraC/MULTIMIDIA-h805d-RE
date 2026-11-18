@@ -1,0 +1,7 @@
+title: "H805D: engenharia reversa de uma multimídia automotiva"
+summary: "Root e firmware de uma multimídia CarPlay/DVR fechada (Allwinner V851/V853), do modo FEL ao shell root pela rede, com um launcher próprio em LVGL por cima do sistema original."
+category: other
+problem: "O aparelho é fechado, sem documentação pública, sem acesso root nem forma oficial de customizar a interface."
+approach: "Boot de recuperação (FEL) via stub no microSD, backup verificado da flash, análise estática do firmware e injeção de um bind-shell e busybox estáticos no rootfs para obter root persistente pela rede; por cima, um launcher próprio em LVGL mantendo o app de fábrica vivo como motor de CarPlay/DVR."
+stack: [C, LVGL, Python, Linux embarcado, Allwinner]
+status: completed
