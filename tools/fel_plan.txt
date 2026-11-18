@@ -1,0 +1,9 @@
+# Plano de gravacao FEL em lote (lido por tools/fel_flash.py).
+# Uma linha por item:  <offset_hex> <caminho_relativo_ao_repo>
+# Linhas com # sao ignoradas. Deixe so comentarios = nada a gravar.
+#
+# >>> VAZIO: o delegador generico ja foi gravado (2026-11-11). <<<
+# Features futuras = editar /data/boot.sh pela rede, SEM FEL.
+#
+# Exemplo de item:
+# 0x2E0000 artifacts/rootfs_mod_generic.squashfs

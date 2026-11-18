@@ -1,0 +1,5 @@
+build/
+h805d-ui
+third_party/
+h805d-ui.upx
+touchfix.so
